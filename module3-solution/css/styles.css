@@ -3,7 +3,7 @@
     font-family: 'Lato', sans-serif;
 }
 body{
-    background: #009688;
+    background: pink;
 }
 a, a:hover{
     text-decoration: none;
@@ -13,7 +13,7 @@ a, a:hover{
     border-radius: 0px;
 }
 #navbar{
-    background: #00796B;
+    background: skyblue;
     border: 0px;
 }
 .navbar-brand h1{
@@ -41,10 +41,10 @@ a, a:hover{
 #first-row{
     background: #00796B;
     border-radius: 4px;
-    color: #eee;
+    color: ;
 }
 #first-row > div{
-    background:
+    background: pink;
 }
 #first-row > div > h3{
     margin-bottom: 30px;
@@ -54,7 +54,7 @@ a, a:hover{
 }
 
 .back-link{
-    color: #fff;
+    color: black;
     font-size: 1.2em;
 }
 .back-link:hover{
@@ -62,7 +62,7 @@ a, a:hover{
 }
 .menu-item .content{
     margin-bottom: 30px;
-    background: #FFC107;
+    background: lightblue;
     padding: 10px;
     font-size: 1.1em;
     border-radius: 5px;
