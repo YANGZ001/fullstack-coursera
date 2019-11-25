@@ -5,26 +5,33 @@
 body{
     background: pink;
 }
-a, a:hover{
+p, p:hover{
     text-decoration: none;
 }
 /**** Navbar Styles ****/
-.navbar-brand{
+.nav-brand{
     border-radius: 0px;
 }
-#navbar{
+#navbar {
     background: skyblue;
     border: 0px;
 }
-.navbar-brand h1{
+.nav-brand h1{
     margin-top: 0px;
     font-size: 24px;
     color: #fff;
 }
-#mobile-nav{
-    background: #cf000f;
+#nav-list {
+    background: deepskyblue;
+    margin-top: 10px;
 }
-#collapsable-navbar ul li a{
+#nav-list a {
+    color: #e4b9b9;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+ul li a {
     color: #fff
 }
 .navbar-default .navbar-toggle .icon-bar{
@@ -34,7 +41,7 @@ a, a:hover{
     background: #000;
 }
 
-.navbar-default .navbar-collapse{
+.navbar-default {
     border: 0px;
 }
 /**** Main content ****/
